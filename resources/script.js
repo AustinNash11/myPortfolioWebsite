@@ -5,8 +5,8 @@ let lightMode = true;
 //varibles for the bottom varible
 const header = document.querySelector("header");
 const aboutMe = document.getElementById("aboutMe");
-const projects = document.getElementById("projects");
-
+const skills = document.getElementById("skills");
+const tippyTop  = document.getElementById("top");
 //array varibles for the drop down list
 const projectDropDown = document.getElementsByClassName("projectDropDown");
 const paragraphDropDown = document.getElementsByClassName("word");
@@ -19,7 +19,8 @@ function lightAndDarkMode(){
         document.body.style.color = "#fffff2";
         header.style.borderColor =  "#fffff2";
         aboutMe.style.borderColor =  "#fffff2";
-        projects.style.borderColor =  "#fffff2";
+        skills.style.borderColor =  "#fffff2";
+        tippyTop.style.backgroundColor = "rgb(181, 61, 165)";
         //changing the button to look like a moon
         button.style.borderColor = "rgba(162, 162, 162, 0.81";
         button.style.backgroundColor = "rgba(162, 162, 162, 0.81)";
@@ -31,9 +32,10 @@ function lightAndDarkMode(){
         // reverting all the changes that were made
         document.body.style.backgroundColor = "#fffff2";
         document.body.style.color = "#373c3c";
+        tippyTop.style.backgroundColor = "lightblue";
         header.style.borderColor =  "#373c3c";
         aboutMe.style.borderColor =  "#373c3c";
-        projects.style.borderColor =  "#373c3c";
+        skills.style.borderColor =  "#373c3c";
         button.style.borderColor = "#ffde00";
         button.style.backgroundColor = "#ffde00"
         button.style.boxShadow = "0 0 0 3px #ffde0080, 0 0 0 6px #ffde0040, 0 0 0 9px #ffde0020, 0 0 0 12px #ffde0010";
