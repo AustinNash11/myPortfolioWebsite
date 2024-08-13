@@ -20,7 +20,7 @@ function lightAndDarkMode(){
         header.style.borderColor =  "#fffff2";
         aboutMe.style.borderColor =  "#fffff2";
         skills.style.borderColor =  "#fffff2";
-        tippyTop.style.backgroundColor = "rgb(181, 61, 165)";
+        tippyTop.style.backgroundColor = "rgba(181, 61, 165, 0.3)";
         //changing the button to look like a moon
         button.style.borderColor = "rgba(162, 162, 162, 0.81";
         button.style.backgroundColor = "rgba(162, 162, 162, 0.81)";
