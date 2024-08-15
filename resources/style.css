@@ -63,7 +63,7 @@ header{
     width: 90%;
     border-right: 1px solid #373c3c;
 }
-.icons{
+.skills .icons{
     max-width: 75%;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,7 @@ header{
     align-self: center;
     width: 50%;
     height: 50%;
+    list-style: none;
 }
 .skills .icons ul li{
     list-style: none;
